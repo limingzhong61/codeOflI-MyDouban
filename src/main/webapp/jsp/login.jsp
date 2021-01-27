@@ -263,8 +263,8 @@ padding-left: 10px;
 		<!-- 自动登录的功能 -->
 
 		<div>
-			    <a href="http://127.0.0.1${WEB_PATH}/jsp/register.jsp" id="login_bottom_find"><font color=blue>忘记密码</font></a>
-				<a href="http://127.0.0.1${WEB_PATH}/jsp/register.jsp" id="login_bottom_sign"><font color=blue>注册账号</font></a>
+			    <%--<a href="${WEB_PATH}/jsp/reset_pwd.jsp" id="login_bottom_find"><font color=blue>忘记密码</font></a>--%>
+				<a href="${WEB_PATH}/jsp/register.jsp" id="login_bottom_sign"><font color=blue>注册账号</font></a>
 	    </div>
 	    <!-- 表单输入数据给后台，返回的错误的消息提示功能 -->
 	    <div id="msg" class="login_level">

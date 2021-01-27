@@ -1,6 +1,6 @@
 .settings/
 build/
-**.idea/
+.idea/
 out/
 WebContent/WEB-INF/classes
 MyDouban.iml
